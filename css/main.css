@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+img{
+    display: block;
+    height: auto;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    background-image: url("../images/main-mg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+.site-main{
+    flex-grow: 1;
+}
+
+.hero-title{
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-size: 70px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-title-text{
+    display: block;
+    text-transform: capitalize;
+}
+
+.hero-box{
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(16, 18, 27, 0.4);
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+}
+
+.hero-form{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero-input{
+    width: 100%;
+    max-width: 450px;
+    margin-right: 105px;
+    padding: 12px 20px 12px 15px;
+    font-size: 17px;
+    background-color: rgba(146, 151, 179, 0.1);
+    color: #f9fafb;
+    border-radius: 10px;
+    border: none;
+}
+
+.hero-day{
+    display: inline-block;
+    padding: 10px 18px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border: 1px solid rgba(16, 18, 27, 0.4);
+    background-color: rgba(146, 151, 179, 0.1);
+    color: #f9fafb;
+    cursor: pointer;
+}
+.hero-day:hover{
+    background-color: rgba(16, 18, 27, 0.4);
+}
+
+.hero-day-day{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.hero-day-month{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.hero-list{
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.hero-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-item:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.info-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.nomoz-daybox{
+    max-width: 135px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(146, 151, 179, 0.1);
+    border-radius: 14px;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+}
+
+.nomoz-day-text{
+    margin-top: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    border-bottom: 1px solid rgba(113, 119, 144, 0.2);
+}
+
+.nomoz-day-time{
+    display: inline-block;
+    font-size: 19px;
+    color: #fff;
+}
+
+.nomoz-date{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;
+}

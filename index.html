@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <!-- Header start -->
+    <header class="site-header">
+
+    </header>
+    <!-- Header finish -->
+
+    <!-- Main start -->
+    <main class="site-main">
+        <!-- Hero section start  -->
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-title">
+                    <span class="hero-title-text">Nomoz vaqti</span>
+                    <span class="hero-title-text js-nomoz-city">Toshkent</span>
+                </h1>
+
+                <div class="hero-box">
+                    <form class="hero-form js-nomoz-form" method="get" action="#" autocomplete="off">
+                        <input class="hero-input js-nomoz-region-search" name="nomoz_region" aria-label="Enter your region" list="city" placeholder="Enter your region: ">
+
+                        <datalist id="city">
+                            <option value="Toshkеnt">Toshkеnt</option>
+                            <option value="Andijon">Andijon</option>
+                            <option value="Buxoro">Buxoro</option>
+                            <option value="Guliston">Guliston</option>
+                            <option value="Samarqand">Samarqand</option>
+                            <option value="Namangan">Namangan</option>
+                            <option value="Navoiy">Navoiy</option>
+                            <option value="Jizzax">Jizzax</option>
+                            <option value="Nukus">Nukus</option>
+                            <option value="Qarshi">Qarshi</option>
+                            <option value="Xiva">Xiva</option>
+                        </datalist>
+
+                        <div class="hero-btnbox js-day-btn">
+                            <button class="hero-day hero-day-day" data-day="day" type="button">To day</button>
+                            <button class="hero-day hero-day-week" data-day="region" type="button">Week</button>
+                            <button class="hero-day hero-day-month" data-day="monthly" type="button">Month</button>
+                        </div>
+                    </form>
+
+                    <ul class="hero-list js-nomoz-list">
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Hero section finish  -->
+
+    </main>
+    <!-- Main finish  -->
+
+    <!-- Footer start -->
+    <footer class="site-footer">
+
+    </footer>
+    <!-- Footer finish -->
+
+    <template class="js-nomoz-template">
+        <li class="hero-item">
+            <div class="info-box">
+                <div class="nomoz-daybox js-bomdod-box">
+                    <p class="nomoz-day-text">Bomdod</p>
+                    <time class="nomoz-day-time js-bomdod-time" datetime="">05:52</time>
+                </div>
+                <div class="nomoz-daybox js-quyosh-box">
+                    <p class="nomoz-day-text">Quyosh</p>
+                    <time class="nomoz-day-time js-quyosh-time" datetime="">05:52</time>
+                </div>
+                <div class="nomoz-daybox js-peshin-box">
+                    <p class="nomoz-day-text">Peshin</p>
+                    <time class="nomoz-day-time js-peshin-time" datetime="">05:52</time>
+                </div>
+                <div class="nomoz-daybox js-asr-box">
+                    <p class="nomoz-day-text">Asr</p>
+                    <time class="nomoz-day-time js-asr-time" datetime="">05:52</time>
+                </div>
+                <div class="nomoz-daybox js-shom-box">
+                    <p class="nomoz-day-text">Shom</p>
+                    <time class="nomoz-day-time js-shom-time" datetime="">05:52</time>
+                </div>
+                <div class="nomoz-daybox js-xufton-box">
+                    <p class="nomoz-day-text">Xufton</p>
+                    <time class="nomoz-day-time js-xufton-time" datetime="">05:52</time>
+                </div>
+            </div>
+            <time class="nomoz-date js-nomoz-date">2022-11-20</time>
+        </li>
+    </template>
+    <script src="./js/main.js"></script>
+</body>
+</html>
